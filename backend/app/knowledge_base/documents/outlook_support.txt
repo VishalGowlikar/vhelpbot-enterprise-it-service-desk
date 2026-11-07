@@ -1,0 +1,20 @@
+DOCUMENT: Microsoft Outlook Support
+
+ISSUE: Unable to sign in to Outlook
+
+1. Verify internet connectivity.
+2. Try signing in through outlook.office.com.
+3. Check whether the account requires an MFA approval.
+4. Check for password expiration or account lockout.
+5. Contact IT support if access remains unavailable.
+
+ISSUE: Outlook is not synchronizing emails
+
+1. Verify internet connectivity.
+2. Check whether Outlook is in Work Offline mode.
+3. Restart Outlook.
+4. Check the mailbox status through Outlook on the web.
+5. Contact IT support if synchronization does not resume.
+
+SECURITY:
+Never share passwords or MFA authentication codes with anyone.

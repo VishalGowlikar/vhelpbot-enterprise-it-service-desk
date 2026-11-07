@@ -1,0 +1,17 @@
+DOCUMENT: Windows 11 Troubleshooting
+
+ISSUE: Computer running slowly
+
+1. Check CPU and memory usage using Task Manager.
+2. Close unnecessary applications.
+3. Check available disk space.
+4. Restart the computer if performance remains poor.
+5. Contact IT support if the problem continues.
+
+ISSUE: Windows update problems
+
+1. Open Windows Settings.
+2. Navigate to Windows Update.
+3. Check for available updates.
+4. Restart the computer if an update requires it.
+5. Contact IT support if updates repeatedly fail.

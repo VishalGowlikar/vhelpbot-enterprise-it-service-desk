@@ -1,0 +1,13 @@
+DOCUMENT: Corporate VPN Support
+
+ISSUE: Unable to connect to corporate VPN
+
+1. Verify that the internet connection is working.
+2. Confirm that the approved company VPN application is installed.
+3. Restart the VPN application.
+4. Check whether the VPN service is experiencing an outage.
+5. Contact IT support if the connection continues to fail.
+
+SECURITY:
+Never share VPN passwords or authentication codes.
+Only use company-approved VPN applications.
