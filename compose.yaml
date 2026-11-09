@@ -1,0 +1,27 @@
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: vhelpbot-backend
+    container_name: vhelpbot-backend
+    # ports:
+    #   - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend/app/knowledge_base/chroma_db:/app/app/knowledge_base/chroma_db
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: vhelpbot-frontend
+    container_name: vhelpbot-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
